@@ -22,7 +22,6 @@ public class String5 {
         String s2 = "World";
 
         String s3 = s1.concat(" ").concat(s2);
-
         System.out.println(s3);
 
         // 5. + operator
@@ -36,7 +35,7 @@ public class String5 {
         System.out.println("Age = " + age);
 
         // 7. Obtaining Substring
-        String message1 = "Hello my name is XYZ".substring(0, 17) + "Akash";
+        String message1 = "Hello my name is XYZ".substring(0,17) + "Akash";
         System.out.println(message1);
 
     }

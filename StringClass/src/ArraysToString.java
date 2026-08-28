@@ -7,6 +7,7 @@ public class ArraysToString {
         String str1 = new String(c);
         // or
         String st = String.valueOf(c);
+        String st2 = "Akash";
         // only works with char[]
         // works with just single values
         System.out.println(str1);
@@ -15,6 +16,7 @@ public class ArraysToString {
 
         // int[] to strings
         int[] arr = {1,2,3,4,5};
+        //String st3 = new String(arr);
         String str2 = Arrays.toString(arr);
         System.out.println(str2);
         //
