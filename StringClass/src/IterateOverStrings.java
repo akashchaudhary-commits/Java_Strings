@@ -3,7 +3,7 @@ public class IterateOverStrings {
     {
         String a = "jbvbavbva";
         System.out.println(a.charAt(0));
-
+//
         // Iterate using loop
         for(int i=0;i<a.length();i++)
         {

@@ -28,7 +28,7 @@ public class String5 {
         String s4 = s1 + " " + s2;
 
         System.out.println(s4);
-
+//
         // 6. String + number
         int age = 20;
 

@@ -2,7 +2,7 @@
 //In other Languages - String treated as Array of objects,
 //In Java  - String treated as objects
 //        1. String Class  = Uses methods to manipulate strings
-
+//
 public class StringDemo {
     public static void main(String[] args) {
         String str = "Java";

@@ -116,7 +116,7 @@ public class String6 {
         // ---------------------------------------
         // 10. split() using comma
         // ---------------------------------------
-
+//
         String str10 = "Apple,Banana,Mango,Orange";
 
         String[] fruits = str10.split(",");

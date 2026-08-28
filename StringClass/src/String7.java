@@ -2,7 +2,7 @@ public class String7 {
 
     public static void main(String[] args) {
 
-
+//
         // 1. matches() - EXACT STRING MATCHING
         System.out.println("1. matches()");
         String str1 = "Java";
