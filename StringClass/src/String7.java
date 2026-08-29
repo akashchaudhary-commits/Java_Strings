@@ -5,6 +5,7 @@ public class String7 {
 //
         // 1. matches() - EXACT STRING MATCHING
         System.out.println("1. matches()");
+
         String str1 = "Java";
         System.out.println(str1.matches("Java"));
 
@@ -65,7 +66,7 @@ public class String7 {
 
         System.out.println("aaaa".matches("a*"));
 
-        System.out.println("".matches("a*"));
+        System.out.println("a".matches("a*"));
 
         System.out.println("b".matches("a*"));
 
@@ -91,7 +92,7 @@ public class String7 {
 
         System.out.println("aaaa".matches("a+"));
 
-        System.out.println("".matches("a+"));
+        System.out.println("a".matches("a+"));
 
         /*
          * a+ means:
@@ -302,7 +303,7 @@ public class String7 {
 
         System.out.println("\n===== 16. Replace Special Characters =====");
 
-        String special = "Java@2026#Programming$Language";
+        String special = "Java@2026#ProgrammingLanguage";
 
         String cleaned = special.replaceAll("[@#$]", " ");
 
@@ -370,92 +371,5 @@ public class String7 {
          * ;
          */
 
-
-        // ============================================================
-        // 19. PRACTICAL EXAMPLE - CLEANING A PHONE NUMBER
-        // ============================================================
-
-        System.out.println("\n===== 19. Practical Example =====");
-
-        String phoneNumber = "+91-987-654-3210";
-
-        String cleanPhone = phoneNumber.replaceAll("\\D", "");
-
-        System.out.println("Original: " + phoneNumber);
-        System.out.println("Cleaned : " + cleanPhone);
-
-        /*
-         * Original:
-         *
-         * +91-987-654-3210
-         *
-         * After removing non-digits:
-         *
-         * 919876543210
-         */
-
-
-        // ============================================================
-        // 20. PRACTICAL EXAMPLE - VALIDATE EMAIL
-        // ============================================================
-
-        System.out.println("\n===== 20. Email Validation =====");
-
-        String email = "student@gmail.com";
-
-        boolean validEmail =
-                email.matches("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}");
-
-        System.out.println("Valid Email: " + validEmail);
-
-
-        // ============================================================
-        // 21. PRACTICAL EXAMPLE - VALIDATE PASSWORD
-        // ============================================================
-
-        System.out.println("\n===== 21. Password Validation =====");
-
-        String password = "Java123";
-
-        boolean validPassword =
-                password.matches("[A-Za-z0-9]{6,}");
-
-        System.out.println("Valid Password: " + validPassword);
-
-        /*
-         * [A-Za-z0-9]
-         *
-         * means:
-         * Uppercase letters A-Z
-         * Lowercase letters a-z
-         * Digits 0-9
-         *
-         * {6,}
-         *
-         * means:
-         * At least 6 characters.
-         */
-
-
-        // ============================================================
-        // 22. PRACTICAL EXAMPLE - EXTRACT WORDS
-        // ============================================================
-
-        System.out.println("\n===== 22. Split Sentence =====");
-
-        String sentence = "Java is easy to learn";
-
-        String[] words = sentence.split(" ");
-
-        for (int i = 0; i < words.length; i++) {
-            System.out.println(words[i]);
-        }
-
-
-        // ============================================================
-        // END
-        // ============================================================
-
-        System.out.println("\n===== Program Finished =====");
     }
 }
