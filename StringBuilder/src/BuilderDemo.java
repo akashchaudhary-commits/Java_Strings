@@ -45,6 +45,7 @@ public class BuilderDemo {
         // insert() add something at a particular position.
         StringBuilder sb4 = new StringBuilder("Hello Java");
         sb4.insert(6, "World ");  // 6 not included
+        sb4.insert(6, 34 + " ");
         System.out.println(sb4);
 
         // delete() remove any character
