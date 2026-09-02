@@ -21,7 +21,7 @@ public class String8 {
 
         System.out.println(
                 "Index of m starting from index 5: "
-                        + str.indexOf('m', 5)
+                        + str.indexOf('a', 13)
         );
 
 
@@ -45,7 +45,7 @@ public class String8 {
 
         System.out.println(
                 "Index of Java starting from index 5: "
-                        + str.indexOf("Java", 5)
+                        + str.indexOf("to", 10)
         );
 
         // 5. lastIndexOf(char)

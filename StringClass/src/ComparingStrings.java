@@ -70,7 +70,7 @@ public class ComparingStrings {
         System.out.println();
 
         //9. Startwith(string, index)
-        System.out.println("program java".startsWith("java", 8));
+        System.out.println("program jova iugweebe".startsWith("java", 8));
         System.out.println();
     }
 }

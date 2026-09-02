@@ -5,6 +5,7 @@ public class BuilderDemo {
         StringBuilder sb = new StringBuilder();
         System.out.println(sb);
 
+
         sb.append("Hello");
         System.out.println(sb);
 

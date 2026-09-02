@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_Strings.iml" filepath="$PROJECT_DIR$/.idea/Java_Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringBuilder/StringBuilder.iml" filepath="$PROJECT_DIR$/StringBuilder/StringBuilder.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringClass/StringClass.iml" filepath="$PROJECT_DIR$/StringClass/StringClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringPracticeQuestions/StringPracticeQuestions.iml" filepath="$PROJECT_DIR$/StringPracticeQuestions/StringPracticeQuestions.iml" />
     </modules>
   </component>
 </project>

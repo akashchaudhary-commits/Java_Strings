@@ -90,9 +90,9 @@ public class String6 {
         // 8. replaceAll() using regex
         // ---------------------------------------
 
-        String str8 = "Java123Programming456";
+        String str8 = "Java123#Pr%og@ramming456";
 
-        String numbersRemoved = str8.replaceAll("[0-9]", "");
+        String numbersRemoved = str8.replaceAll("[^a-zA-Z0-9]", "0");
 
         System.out.println("\nOriginal String: " + str8);
         System.out.println("After removing numbers: " + numbersRemoved);

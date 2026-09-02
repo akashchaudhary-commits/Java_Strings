@@ -35,7 +35,7 @@ public class String5 {
         System.out.println("Age = " + age);
 
         // 7. Obtaining Substring
-        String message1 = "Hello my name is XYZ".substring(0,17) + "Akash";
+        String message1 = "Hello my name is XYZ".substring(0,10) + "Akash";
         System.out.println(message1);
 
     }

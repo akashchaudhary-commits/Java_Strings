@@ -14,7 +14,7 @@ public class String7 {
         // 2. matches() with REGULAR EXPRESSIONS
         System.out.println("\n2. matches() with Regex");
 
-        String str2 = "Java is powerful";
+        String str2 = "Java" ;
         System.out.println(str2.matches("Java.*"));
 
         /*
@@ -66,9 +66,9 @@ public class String7 {
 
         System.out.println("aaaa".matches("a*"));
 
-        System.out.println("a".matches("a*"));
+        System.out.println("".matches("a*"));
 
-        System.out.println("b".matches("a*"));
+        System.out.println("abaaaaaaaa".matches("aba*"));
 
         /*
          * a* means:
@@ -92,7 +92,7 @@ public class String7 {
 
         System.out.println("aaaa".matches("a+"));
 
-        System.out.println("a".matches("a+"));
+        System.out.println("".matches("a+"));
 
         /*
          * a+ means:
@@ -109,7 +109,7 @@ public class String7 {
 
         System.out.println("\n6. Question Mark (?)");
 
-        System.out.println("color".matches("colou?r"));
+        System.out.println("colour".matches("colou?r"));
 
         System.out.println("colour".matches("colou?r"));
 
@@ -153,11 +153,11 @@ public class String7 {
 
         System.out.println("123".matches("\\d{3}"));
 
-        System.out.println("456".matches("\\d{3}"));
+        System.out.println("456".matches("\\d{4}"));
 
-        System.out.println("12".matches("\\d{3}"));
+        System.out.println("12".matches("\\d{2}"));
 
-        System.out.println("1234".matches("\\d{3}"));
+        System.out.println("1234".matches("\\d{4}"));
 
         // 9. PHONE NUMBER VALIDATION
         System.out.println("\n9. Phone Number Validation");
@@ -216,11 +216,9 @@ public class String7 {
          */
 
 
-        // ============================================================
         // 13. REPLACEALL()
-        // ============================================================
 
-        System.out.println("\n===== 13. replaceAll() =====");
+        System.out.println("\n13. replaceAll()");
 
         String text = "Java is easy";
 
@@ -245,12 +243,9 @@ public class String7 {
          * - Replace multiple matching characters
          */
 
-
-        // ============================================================
         // 14. replaceAll() WITH REGEX
-        // ============================================================
 
-        System.out.println("\n===== 14. replaceAll() with Regex =====");
+        System.out.println("\n14. replaceAll() with Regex");
 
         String data = "abc123xyz456";
 
@@ -270,16 +265,13 @@ public class String7 {
          * abcxyz
          */
 
-
-        // ============================================================
         // 15. REMOVE ALL NON-DIGITS
-        // ============================================================
 
         System.out.println("\n===== 15. Keep Only Digits =====");
 
         String mixed = "Phone: 987-654-3210";
 
-        String onlyDigits = mixed.replaceAll("\\D", "");
+        String onlyDigits = mixed.replaceAll("\\d", "");
 
         System.out.println(onlyDigits);
 
@@ -296,16 +288,13 @@ public class String7 {
          * 9876543210
          */
 
-
-        // ============================================================
         // 16. REPLACE SPECIAL CHARACTERS
-        // ============================================================
 
-        System.out.println("\n===== 16. Replace Special Characters =====");
+        System.out.println("\n 16. Replace Special Characters");
 
-        String special = "Java@2026#ProgrammingLanguage";
+        String special = "Java@2026#Programmi!ngLan*gua^ge";
 
-        String cleaned = special.replaceAll("[@#$]", " ");
+        String cleaned = special.replaceAll("[^a-zA-Z0-9]", "");
 
         System.out.println(cleaned);
 
