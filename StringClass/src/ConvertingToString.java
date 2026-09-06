@@ -34,14 +34,10 @@ public class ConvertingToString {
         long i2 = Long.parseLong(str);
         System.out.println(i1);
 
+
         // Checking the datatype:
         System.out.println(str.getClass());
 
-        //or using instance of
-        if(str instanceof String)
-        {
-            System.out.println("String");
-        }
 
     }
 }

@@ -26,7 +26,7 @@ public class Builder3 {
 
         StringBuilder sb2 = new StringBuilder("Hello");
 
-        sb.insert(5, letters2, 1, 3);
+        sb2.insert(5, letters2, 1, 3);
 
         System.out.println(sb2);
 
